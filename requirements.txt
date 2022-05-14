@@ -1,0 +1,7 @@
+streamlit
+numpy
+matplotlib
+scipy
+tensorflow==1.15.2
+PIL
+cv2
