@@ -4,14 +4,14 @@ import tensorflow as tf
 import time
 import os
 import sys
-from glob import glob
+
 from ops import batch_norm,linear,conv2d,deconv2d,lrelu
 from matplotlib import pyplot as plt
 from image_helpers import *
 from PIL import Image
 from io import BytesIO
 import base64
-import cv2
+
 PAGE_CONFIG = {"page_title":"StColab.io","page_icon":":smiley:","layout":"centered"}
 
 def main():
