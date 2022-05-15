@@ -3,5 +3,6 @@ numpy
 matplotlib
 scipy==1.1.0
 tensorflow==1.15.2
-pillow
+Pillow
 opencv-python
+glob2
