@@ -11,7 +11,7 @@ from image_helpers import *
 from PIL import Image
 from io import BytesIO
 import base64
-import cv2
+
 PAGE_CONFIG = {"page_title":"StColab.io","page_icon":":smiley:","layout":"centered"}
 
 def main():
