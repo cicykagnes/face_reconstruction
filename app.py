@@ -20,7 +20,7 @@ def main():
   st.write('loading model')
   with tf.compat.v1.Session() as sess:
       graph = tf.get_default_graph()
-      saver = tf.train.import_meta_graph('model/Model.cpkt.meta')
+      saver = tf.compat.v1.train.import_meta_graph('model/Model.cpkt.meta')
       saver.restore(sess,tf.train.latest_checkpoint('model/'))
       
       images=graph.get_tensor_by_name('real_images:0')
